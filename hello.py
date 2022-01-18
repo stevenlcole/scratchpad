@@ -1,7 +1,9 @@
-print ('Hello world')
+
 
 if __name__ == "__main__":
-# created by James Mertz
+    print ('Hello world')
+    # created by James Mertz
+
     with open('01_random.txt') as reader:
         counts = dict()
         for line in reader:
